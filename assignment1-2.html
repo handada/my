@@ -9,7 +9,7 @@
 <body id="target">
   <h1>JavaScript 함수 - 숙제1</h1>
   <main id="wrapper">
-  <article id="box1">
+  <article class="child" id="box1">
     <h3>과제내용 :
     </h3>
               <ul>
@@ -18,7 +18,8 @@
                 <li>3. 그럼 끝인가?</li>
               </ul>
   </article>
-  <article id="box2">
+  
+  <article class="child" id="box2">
     <h3>
       수행내용 :
     </h3>
@@ -28,7 +29,8 @@
         <input type="text" id="first" name="HowOld" placeholder="-20을 하면 나오는 수" ><span>세 입니까?,</span>
       </li>
       <li class="wrap">
-        <input type="text" id="second" name="HowOld" placeholder="아래그림에서 몇번 나왔는지" ><span>개 일지도,</span>
+        <label for="second"> B.<strong>죽창</strong>이라는단어는</label>
+        <input type="text" id="second" name="HowOld" placeholder="아래그림에서 몇번 나왔는지"><span>개 일지도,</span>
       </li>
       <li class="wrap">
         <label for="third">C. 눈에 보이는 <strong>숫자</strong>는</label>
@@ -36,7 +38,7 @@
       </li>
     </ul>
   </article>
-      <article class="box">
+      <article class="box child">
         <h3>입력된 숫자의 총합은?</h3>
         <ul>
           <span>총합은</span><input type="text" value="" id="answer" readonly="readonly" size="15"/><span>개</span>
